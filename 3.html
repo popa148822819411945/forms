@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML формы</title>
+</head>
+<body>
+<form action="р2.html" method="POST">
+    <fieldset>
+    <div>
+        <input type="checkbox" id="scales" name="scales" checked />
+        <label for="scales">Это метка для чекбокса: нажми на меня - чекбокс сменит галочку!</label><br>
+    </div>
+    <div>
+        <input type="checkbox" id="scales3" name="scales1" checked />
+        <label for="scales">Я отмечен по умолчанию!</label><br>
+    </div>
+    <div>
+        <input type="checkbox" id="scales2" name="scales2" checked />
+        <label for="scales">я disabled</label><br><br>
+    </div>
+    <fieldset>
+    Это группа радиокнопок - только одна из них может быть отмечена!<br>
+    <div>
+        <input type="radio" id="huey" name="drone" value="huey" checked />
+        <label for="huey">Это метка для радио</label><br>
+    </div>
+    <div>
+        <input type="radio" id="huey" name="drone" value="huey" checked />
+        <label for="huey">Это метка для радио</label><br><br>
+    </div>
+    </fieldset>
+    <input type="button" id="name1" name="student_name1" value="Отправить на сервер"><br>
+    
+</form>
+</body>
+</html>
